@@ -14,7 +14,7 @@ def rgb2hex(r,g,b):
 #main function
 def randomFarbe():
     global varWertHex
-    #reset variables an list
+    #reset variables 'n list
     listFarbenWerte = ["R:", "G:" ,"B:"]
     varColourWert = varInputText = ""
     #main code
