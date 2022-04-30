@@ -40,6 +40,6 @@ input_field = Entry(input_frame, font=('arial', 13, 'bold'), textvariable=output
 
 btns_frame = Frame(root, width=1000, height=272.5, bg="grey")
 btns_frame.pack()
-generate = Button(btns_frame, text = "Drücke hier für eine Deckendildo Farbe!", command = randomFarbe).grid(column = 0, row = 1)
+generate = Button(btns_frame, text = "Drücke hier für eine zufällige Farbe!", command = randomFarbe).grid(column = 0, row = 1)
 
 root.mainloop()
